@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <title>Product</title>
+</head>
+
+<body>
+    <header>
+        <h1>CBSE - COOL BREEZE SYSTEM (ECO FRIENDLY)</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/product">Product</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>SOURCE OF POWER:</h2>
+        <p>SOLAR POWER, BATTERY OPERATED, ELECTRICITY</p>
+        <p>In Box Contains:</p>
+        <ul>
+            <li>CBSE</li>
+            <li>Solar Panel</li>
+            <li>Battery</li>
+            <li>Multi-layered anti-gem filter</li>
+            <li>Remote</li>
+        </ul>
+        <p>Price: Rs.4,299/-</p>
+        <a href="/buy_now" class="btn">Buy Now</a>
+        <a href="/free_trial" class="btn">Free Trial</a>
+    </main>
+    <footer>
+        <p>Contact us at: cbse.aircoolers@gmail.com</p>
+    </footer>
+</body>
+
+</html>
+
